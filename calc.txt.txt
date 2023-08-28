@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Calculation</title>
+<style type="text/css">
+button{
+back-ground_color:"red";}
+</style>
+
+<script>
+function add(){
+var num1,num2=sum
+var num1=parseInt("document.getElementById(n1).value");
+var num2=perseInt("document.getElementById(n2).value");
+var sum=num1+num2;
+}
+
+function sub(){
+var num1,num2=diff
+var num1=parseInt("document.getElementById(n1).value");
+var num2=perseInt("document.getElementById(n2).value");
+var diff=num1-num2;
+}
+
+function mul(){
+var num1,num2=pro
+var num1=parseInt("document.getElementById(n1).value");
+var num2=perseInt("document.getElementById(n2).value");
+var mul=num1*num2;
+}
+function reset(){
+document.getElementById("num1").value" ";
+document.getElementById("num2").value" ";
+document.getElementById("reset").value" ";
+</script>
+</head>
+<body>
+</center>
+num1:<inputype="num"/>
+num2:<inputype="num"/>
+<button onclick="add()"></button>
+<button onclick="sub()"></button>
+<button onclick="mul()"></button>
+Result:<input is="res">
+</center>
+</body>
+</html>
+
